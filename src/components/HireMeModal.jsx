@@ -71,6 +71,7 @@ const HireMeModal = ({ onClose, onRequest }) => {
 										name="subject"
 										type="text"
 										required=""
+										placeholder="Project Category"
 										aria-label="Project Category"
 									>
 										{selectOptions.map((option) => (
