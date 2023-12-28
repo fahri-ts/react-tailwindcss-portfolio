@@ -56,6 +56,7 @@ const ContactForm = () => {
 							cols="14"
 							rows="6"
 							aria-label="Message"
+							placeholder="Your Message"
 						></textarea>
 					</div>
 

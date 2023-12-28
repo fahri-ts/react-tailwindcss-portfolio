@@ -22,14 +22,16 @@ const ProjectInfo = () => {
 									>
 										<span>{info.title}: </span>
 										<a
-											href="https://stoman.me"
+											href="./"
 											className={
+												info.title === 'Name' ||
+												info.title === 'Services' ||
 												info.title === 'Website' ||
 												info.title === 'Phone'
 													? 'hover:underline hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer duration-300'
 													: ''
 											}
-											aria-label="Project Website and Phone"
+											aria-label="Project Client"
 										>
 											{info.details}
 										</a>
